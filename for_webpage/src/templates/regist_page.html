@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>사람 얼굴 등록</title>
+    </head>
+    <body>
+        <form name="regist_face" action="/registPage/regist" enctype="multipart/form-data" method="post">
+            <table>
+                <tr>
+                    <td>이름</td>
+                    <td><input type="text" name="face_name" /></td>
+                </tr>
+                
+                <tr>
+                    <td>사진</td>
+                    <td><input type="file" name="face_img"/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" name="submit" value="완료" />
+                        <input type="reset" name="reset" value="리셋" /></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
+
+
+<!--<form method="post" enctype="multipart/form-data" action="sim_img_test.jsp">-->
+<!--    <input type="file" name="file">-->
+<!--        <input type="submit" value="업로드">-->
+<!--</form>-->

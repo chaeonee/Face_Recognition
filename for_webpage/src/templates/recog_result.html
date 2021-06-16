@@ -1,0 +1,11 @@
+<form action="/registPage" method="post">
+    <img src={{img_src}} width='500' height='300'>
+    
+    <table>
+    {% for key, value in names.items() %}
+    <tr>
+        <td> {{ value }} </td>
+    </tr>
+    {% endfor %}
+    
+</form>
